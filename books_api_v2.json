@@ -394,13 +394,7 @@
 					]
 				},
 				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Bearer 2611af55f8e7e88ec371c6b3e5fe392155a9767895a652ebdb16c803194979fd",
-						"type": "text"
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "raw",
 					"raw": "{\r\n  \"bookId\": 1,\r\n  \"customerName\": \"{{$randomFullName}}\"\r\n}",
